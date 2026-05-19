@@ -32,7 +32,7 @@ Installing `npm` is fraught with issues, including but not limited to how to get
             <artifactId>frontend-maven-plugin</artifactId>
             <version>1.12.0</version>
             <configuration>
-                <nodeVersion>v16.13.1</nodeVersion>
+                <nodeVersion>v16.13.2</nodeVersion>
             </configuration>
             <executions>
                 <execution>
@@ -96,7 +96,7 @@ $ ./ng --version
 /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
            |___/
 Angular CLI: 13.0.4
-Node: 16.13.1
+Node: 16.13.2
 OS: linux x64
 ...
 ```
@@ -151,7 +151,7 @@ $ ./ng version
 /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
            |___/
 Angular CLI: 13.0.4
-Node: 16.13.1
+Node: 16.13.2
 OS: linux x64
 Angular: 13.0.3
 ... animations, common, compiler, compiler-cli, core, forms
