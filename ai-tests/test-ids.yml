@@ -1,0 +1,9 @@
+scenarios:
+  - name: User signup flow
+    steps:
+      - navigate: "/"
+      - Look for id
+      - refresh the page
+      - Look for id
+    expect:
+      - both ids should be present but different

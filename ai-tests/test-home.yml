@@ -1,0 +1,7 @@
+scenarios:
+  - name: Home page
+    steps:
+      - navigate: "/"
+      - Look for message
+    expect:
+      - Message should be "Hello World"
